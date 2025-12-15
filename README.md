@@ -70,7 +70,7 @@ Both devices must share the same UART parameters:
 
 ---
 
-## 🐍 Raspberry Pi Code (Python)
+## 🐍 Raspberry Pi Code (Thonny IDE)
 
 **File:** `UART_Rpi.py`
 
@@ -109,7 +109,7 @@ while True:
 
 ---
 
-## 🔥 ESP32 Code (Arduino)
+## 🔥 ESP32 Code (Arduino IDE)
 
 **File:** `UART_Rpi.ino`
 
