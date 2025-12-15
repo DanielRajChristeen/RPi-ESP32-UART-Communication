@@ -54,7 +54,7 @@ Both devices must share the same UART parameters:
 
 ## 🧠 Software Architecture
 
-### Raspberry Pi (Python)
+### Raspberry Pi (Thonny IDE)
 
 * Uses `pyserial`
 * Runs in **dual mode**
@@ -62,7 +62,7 @@ Both devices must share the same UART parameters:
   * Main thread → transmit user input
   * Background thread → receive ESP32 data
 
-### ESP32 (Arduino)
+### ESP32 (Arduino IDE)
 
 * Uses **hardware UART (`Serial2`)**
 * Listens continuously for incoming messages
